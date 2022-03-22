@@ -1,0 +1,103 @@
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    margin: 0px;    
+    height: 90vh;
+} 
+.container{    
+    width: 600px;
+    margin: auto;
+    height: 400px; 
+    box-shadow:1px 3px 5px 3px #a7a3a38c;  
+}
+h1{
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin:0;
+    margin-top: -20px;   
+}
+.box1{
+    padding-left:35px;
+    padding-right:50px;
+}
+
+.box1 h3{
+    font-size: 10px;
+    background-color:#fff;
+    color:blue; 
+    margin-top:10%;  
+}
+.box1 input[type="text"]{
+    background-color: cornflowerblue;
+    border-bottom: 2px solid blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.box1 .button{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    border-color: blue;
+    width:80px;
+    height: 30px;
+    float: right;
+    margin-top:-2%;
+    margin-right:35px;
+}
+.box2{
+    background-color:#fff;
+    color:grey;
+    margin-top:10%;
+    padding-left:50px;
+    padding-right:20px;
+    font-size:15px;        
+}
+input[type="checkbox"]+label{
+    display: block;
+}
+input[type="checkbox"]{
+    display:none;
+}
+input[type="checkbox"]+label:before{
+    content:'';
+    border:0.1em solid grey;
+    display: inline-block;
+    width: 1em;
+    height:1em;
+    margin-right:1.5em;
+}
+
+.box3{
+    padding-left: 35px;
+}
+    
+.box3 .delbutton{
+    background-color: crimson;
+    border-radius:5px;
+    border-color: crimson;
+    color: #fff;
+    width:120px;
+    height:30px;
+    margin-top:10%;
+    
+}
+.navbar{
+    background-color:blue;
+    width: 800px;
+    height: 100px;
+    margin:0 auto;
+}
+.fa-solid{
+    color:red;
+    float: right;
+    margin-right:90px;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+
+
